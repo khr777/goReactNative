@@ -4,6 +4,7 @@ import {View, StyleSheet} from 'react-native';
 
 function Box(props) {
   // return <View style={[styles.box, props.rounded ? styles.rounded : null]} />;
+  // 아래와 같이 &&으로 삼항연산자를 짧게 표현할 수 있다.
   return (
     <View
       style={[

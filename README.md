@@ -36,3 +36,15 @@ import React from 'react';
 ### 7. StyleSheet 컴포넌트에 스타일 입히기
 - css 속성값들 확인
 https://www.w3schools.com/css/default.asp
+- react-native 모듈에서 불러와서 사용할 수 있다.
+- css와 주요 차이점
+  - 셀렉터라는 개념이 존재하지 않는다.
+  - 모든 스타일 속성은 camelCase로 작성해야 한다.
+  - display 속성은 기본적으로 flex이며, 다른 값은 none 밖에 없다.
+  - flexDirection 속성의 기본값은 웹에서는 row이지만 react native에서는 column이다.
+  - 리액트 네이티브에서 스타일링할 때 숫자 단위는 dp뿐이다.
+  - background 대신 backgroundColor를 사용해야 한다.
+  - border 대신 borderWidth, borderStyle, borderColor 등을 따로따로 설정해야 한다.
+- 스타일들을 const 객체에 담아 props로 전달 받는 값에 따라 다른 스타일을 보여줄 수 있다.
+
+
