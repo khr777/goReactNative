@@ -7,7 +7,7 @@
  */
 
 import React from 'react';
-import Greeting from './components/Greeting';
+import Box from './components/Box';
 import {SafeAreaView} from 'react-native';
 /*
 <View> 태그는 주로 레이아웃을 구성하기 위해 사용되는 컨테이너이지만,
@@ -20,10 +20,9 @@ import {SafeAreaView} from 'react-native';
 // 2. 이렇게 입력
 
 const App = () => {
-  const name = 'JSX';
   return (
     <SafeAreaView>
-      <Greeting name={name} />
+      <Box rounded={true} size="large" color="blue" />
     </SafeAreaView>
   );
 };
